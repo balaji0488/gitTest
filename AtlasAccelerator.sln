@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasAccelerator", "AtlasAccelerator\AtlasAccelerator.csproj", "{B98C2471-81D1-49DE-BEAF-900F95B0F31C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPManagement", "ClassLibrary1\SPManagement.csproj", "{327C9C16-A6D7-4EE4-998C-F3F65309A37E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B98C2471-81D1-49DE-BEAF-900F95B0F31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98C2471-81D1-49DE-BEAF-900F95B0F31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98C2471-81D1-49DE-BEAF-900F95B0F31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98C2471-81D1-49DE-BEAF-900F95B0F31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327C9C16-A6D7-4EE4-998C-F3F65309A37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327C9C16-A6D7-4EE4-998C-F3F65309A37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327C9C16-A6D7-4EE4-998C-F3F65309A37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327C9C16-A6D7-4EE4-998C-F3F65309A37E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
