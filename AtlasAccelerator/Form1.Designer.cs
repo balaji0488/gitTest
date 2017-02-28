@@ -45,7 +45,7 @@
             this.btnAction.Name = "btnAction";
             this.btnAction.Size = new System.Drawing.Size(110, 23);
             this.btnAction.TabIndex = 0;
-            this.btnAction.Text = "SampleAction";
+            this.btnAction.Text = "SampleAction1";
             this.btnAction.UseVisualStyleBackColor = true;
             this.btnAction.Click += new System.EventHandler(this.btnAction_Click);
             // 
