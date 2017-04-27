@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.SharePoint.Taxonomy;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.SharePoint;
@@ -123,5 +124,23 @@ namespace SPManagement
             }
             return docURL +"|"+ maxSize + " Bytes|"+totalSize+" MB";
         }
+
+        #region Term Store
+        /// <summary>
+        /// Gets the All Term store collection for given site
+        /// </summary>
+        /// <param name="oSite">SPsite object</param>
+        /// <returns>TermStoreCollection</returns>
+        public TermStoreCollection getTermStoreCollection(SPSite oSite)
+        {
+            TermStoreCollection oTermStores = null;
+            TaxonomySession oSession = new TaxonomySession(oSite);
+            if (oSession != null)
+            {
+                oTermStores = oSession.TermStores;
+            }
+            return oTermStores;
+        }
+        #endregion 
     }
 }
